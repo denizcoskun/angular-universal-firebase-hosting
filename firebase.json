@@ -1,10 +1,10 @@
 {
   "hosting": {
-    "public": "dist-server",
+    "public": "dist",
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "ssr"
       }
     ]
   }

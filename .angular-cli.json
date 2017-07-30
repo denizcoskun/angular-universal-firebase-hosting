@@ -31,7 +31,7 @@
     {
       "platform": "server",
       "root": "src",
-      "outDir": "dist-server",
+      "outDir": "functions/dist-server",
       "assets": [
         "assets",
         "favicon.ico"
